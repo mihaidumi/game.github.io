@@ -1,7 +1,4 @@
 
-
-
-
 let selectUserOne = document.getElementById('option1');
 let selectUserTwo = document.getElementById('option2');
 
