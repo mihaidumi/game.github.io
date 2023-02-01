@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<title>Title of the document</title>
+</head>
+
+<body>  
+    <div class="main">
+        <h1>FIGHT!</h1>
+        <label for="cars">Choose a value:</label>
+        
+        <select name="cars" id="option1">
+            <option value="rock">Rock</option>
+            <option value="sccisors">Sccisors</option>
+            <option value="paper">Paper</option>  
+        </select>
+
+        <select name="cars" id="option2">
+            <option value="rock">Rock</option>
+            <option value="sccisors">Sccisors</option>
+            <option value="paper">Paper</option>  
+        </select>
+
+        <button class="increment-btn" id="increment-btn" onclick="checkWinner()">FIGHT</button>
+        <p class="result" id="result"></p>
+        <p class="error" id="error"></p>
+    </div> 
+    
+<script src="main.js"></script>
+</body>
+
+</html>
